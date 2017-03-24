@@ -1,0 +1,61 @@
+body {
+  background-color: #ccf5f5;
+}
+#gameHolder {
+  width: 600px;
+  margin: auto;
+}
+#title {
+  width: 600px;
+  height: 150px;
+  margin: auto;
+  background: url("../img/penguin_title.png");
+}
+#penguin1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('../img/mound_1.png');
+}
+#penguin2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('../img/mound_2.png');
+}
+#penguin3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('../img/mound_3.png');
+}
+#penguin4 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('../img/mound_4.png');
+}
+#penguin5 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('../img/mound_5.png');
+}
+#penguin6 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('../img/mound_6.png');
+}
+#penguin7 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('../img/mound_7.png');
+}
+#penguin8 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('../img/mound_8.png');
+}
