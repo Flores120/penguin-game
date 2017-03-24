@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
     <title>Penguin Game</title>
   </head>
   <body>
+    <div id="alert">
+      <div id="alert-content">
+        <span onclick="closeAlert()" id="close">&times;</span>
+        <p>Ahhhhh Yeti you lose</p>
+      </div>
+    </div>
     <div id="gameHolder">
       <div id="title"></div>
       <div id="penguin1"></div>
@@ -16,7 +23,7 @@
       <div id="penguin6"></div>
       <div id="penguin7"></div>
       <div id="penguin8"></div>
-      <div id="yeti"></div>
+      <div onclick="yetiAlert()" id="yeti"></div>
     </div>
   </body>
 </html>
