@@ -1,3 +1,6 @@
+function playGame() {
+    $(".landingPage").hide(100);
+}
  function yetiAlert(){
    var modal = document.getElementById("alert");
    var yeti = document.getElementById("yeti");
