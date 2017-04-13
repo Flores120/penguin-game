@@ -19,7 +19,7 @@ function closeAlert(){
   var penguin7 = document.getElementById("penguin7");
   var penguin8 = document.getElementById("penguin8");
   modal.style.display = "none";
-  // yeti.style.backgroundImage = "url('./img/mound_9.png')";
+  yeti.style.backgroundImage = "url('./img/mound_9.png')";
   penguin1.style.backgroundImage = "url('./img/mound_1.png')";
   penguin2.style.backgroundImage = "url('./img/mound_2.png')";
   penguin3.style.backgroundImage = "url('./img/mound_3.png')";
@@ -28,6 +28,7 @@ function closeAlert(){
   penguin6.style.backgroundImage = "url('./img/mound_6.png')";
   penguin7.style.backgroundImage = "url('./img/mound_7.png')";
   penguin8.style.backgroundImage = "url('./img/mound_8.png')";
+  window.location.reload();
 }
 
 function penPop1(){
